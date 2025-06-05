@@ -19,7 +19,7 @@
 
 <h2 align="center"><strong>🌐 Acesse o site</strong></h2>
 
-<p align="center">https://luigiazv.github.io/Thanatos-Site/index.html</p>
+<p align="center">https://luigiazv.github.io/Thanatos-A-Arte/</p>
 
 ---
 
