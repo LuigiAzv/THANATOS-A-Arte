@@ -21,6 +21,8 @@
 
 <p align="center">https://luigiazv.github.io/Thanatos-Site/index.html</p>
 
+---
+
 <h2 align="center"><strong>🧩 Tecnologias Utilizadas</strong></h2>
 
 <p align="center">🟠 HTML5</p>
