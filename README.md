@@ -1,6 +1,6 @@
 <h1 align="center"><strong>🎭 THÁNATOS: A ARTE</strong></h1>
 
-<p align="center">Thánatos: A Arte é um drama noir investigativo ambientado na chuvosa cidade de Seattle entre 1978 e 1994. A história acompanha os detetives Cole Parker, Eddie Walker e Layne Williams enquanto desvendam uma série de assassinatos brutais com simbolismo artístico e psicológico.</p>
+<p align="center">Thánatos: A Arte é um drama noir investigativo ambientado na chuvosa cidade de Seattle entre 1978 e 1994. A história acompanha os detetives Chris Parker, Eddie Walker e Layne Williams enquanto desvendam uma série de assassinatos brutais com simbolismo artístico e psicológico.</p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/8e4e6f6a-9a63-49af-b031-07a6707fe247" alt="Banner Thánatos: A Arte"/>
