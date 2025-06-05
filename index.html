@@ -9,7 +9,183 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="shortcut icon" type="imagex/png" href="./Icon.ico">
-  
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Roboto Mono', monospace;
+      background-color: #1d1d1d;
+      color: #eaeaea;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #111;
+      padding: 2rem 1rem;
+      border-bottom: 3px solid #ff3c3c;
+    }
+
+    .header-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .header-container h1 {
+      font-size: 2.2rem;
+      color: #ff3c3c;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      color: #eaeaea;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #cc0000;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .intro {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      background-color: #1a1a1a;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+      margin-bottom: 3rem;
+      flex-direction: row;
+    }
+
+    .intro.reverse {
+      flex-direction: row-reverse;
+    }
+
+    .intro-image {
+      flex: 1;
+      min-width: 280px;
+      max-width: 400px;
+    }
+
+    .intro-image img {
+      width: 100%;
+      border-radius: 8px;
+      border: 2px solid #333;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+    }
+
+    .investigation {
+      flex: 2;
+      color: #f1e5d0;
+    }
+
+    .investigation h2 {
+      font-size: 2rem;
+      color: #ff3c3c;
+      margin-bottom: 1rem;
+    }
+
+    .investigation p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      text-align: justify;
+    }
+
+    .investigation button {
+      background-color: transparent;
+      border: 2px solid #ff3c3c;
+      color: #ff3c3c;
+      padding: 0.6rem 1.2rem;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .investigation button:hover {
+      background-color: #ff3c3c;
+      color: #1a1a1a;
+    }
+
+    .reverse .investigation h2 {
+      text-align: right;
+    }
+
+    .reverse .button-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 1rem;
+    }
+
+    footer {
+      background-color: #111;
+      color: #999;
+      padding: 2rem 1rem;
+      border-top: 3px solid #ff3c3c;
+    }
+
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 1rem;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+      .header-container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+
+      .intro, .intro.reverse {
+        flex-direction: column !important;
+        align-items: center;
+      }
+
+      .investigation h2, .investigation button {
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -44,7 +220,7 @@
     <img src="Foto2.jpeg" alt="Cena futura"/>
   </div>
   <div class="investigation">
-    <h2 class="header-container">FUTURO DA INVESTIGAÇÃO</h2>
+    <h2 class="header-container">INVESTIGAÇÃO</h2>
     <p>À medida que a investigação avança, Chris e Eddie começam a perceber padrões estranhos nas cenas dos crimes — símbolos, composições visuais e uma estética meticulosamente construída que sugerem algo além da violência comum.</p>
     <p>Os assassinatos parecem fazer parte de uma obra maior, como se cada vítima fosse uma peça dentro de uma galeria macabra. Tudo indica que o assassino está tentando comunicar algo através da arte, transformando os corpos em manifestações visuais perturbadoras.</p>
     <p>Essa conexão entre os crimes e o mundo artístico levará os detetives por um caminho cada vez mais obscuro, onde beleza e brutalidade se misturam, desvendar o motivo pode ser tão perigoso quanto capturar o responsável.</p>
