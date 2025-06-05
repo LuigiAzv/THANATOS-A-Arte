@@ -23,9 +23,8 @@
 
 <h2 align="center"><strong>🧩 Tecnologias Utilizadas</strong></h2>
 
-<p align="center">HTML5</p>
-<p align="center">CSS3 (com animações via Animate.css)</p>
-<p align="center">AOS (Animate On Scroll)</p>
-
-<p align="center">Google Fonts (Roboto Mono)</p>
-<p align="center">Spotify API (link externo para trilha sonora)</p>
+<p align="center">🟠 HTML5</p>
+<p align="center">🔵 CSS3 (com animações via Animate.css)</p>
+<p align="center">🤖 AOS (Animate On Scroll)</p>
+<p align="center">🔤 Google Fonts (Roboto Mono)</p>
+<p align="center">🎵 Spotify API (link externo para trilha sonora)</p>
